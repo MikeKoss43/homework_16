@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/null.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/common.css">
+
+	<title>Homework_16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="main">
+			<section class="main__drob drom-main">
+				<div class="drob-main__container">
+					<div class="drob-main__image">
+						<img src="image/illustration.svg" alt="">
+					</div>
+					<div class="drob-main__content">
+						<div class="drob-main__title title">
+							<p class="title__subtitle">Any questions?</p>
+							<h1 class="title__one">Drop us a line</h1>
+						</div>
+						<form action="https://jsonplaceholder.typicode.com/posts" class="drob-main__form form">
+							<div class="form__box">
+								<div class="form__field">
+									<label for="first-name">First Name*</label>
+									<input id="first-name" autocomplete="off" name="first-name" placeholder="Your first name"
+										required type="text">
+								</div>
+								<div class="form__field">
+									<label for="second-name">Last Name*</label>
+									<input id="second-name" name="first-name" placeholder="Your first name" required type="text">
+								</div>
+							</div>
+
+							<div class="form__box">
+								<div class="form__field">
+									<label for="email">Email*</label>
+									<input id="email" name="email" placeholder="Your working email" required type="email">
+								</div>
+								<div class="form__field">
+									<label for="second-name">Phone</label>
+									<input id="second-name" name="first-name" placeholder="Your phone number" required
+										type="tel">
+								</div>
+							</div>
+
+							<div class="form__box form__box_message ">
+								<label for="message">Message*</label>
+								<textarea name="" id="message" cols="30" rows="10"></textarea>
+							</div>
+
+						</form>
+
+						<div class="drob-main__footer footer">
+							<div class="footer__check">
+								<input class="check__checkbox" type="checkbox" required name="agree" id="agree">
+								<label class="check__label" for="agree"><span class="check__text">I agree to receive
+										communications from Createx Online School</span></label>
+							</div>
+							<div class="footer__btn">
+								<a class="button" href=""><span>Send message</span></a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<section class="buttons">
+
+			<div class="buttons__container">
+				<h2>Custom buttons</h2>
+
+				<div class="buttons__block">
+					<buttons class="buttons__box">
+						<input class="buttons__item" required type="checkbox" name="check-1" id="check-1">
+						<label class="buttons__label" for="check-1">That`s custom button</label>
+					</buttons>
+					<buttons class="buttons__box">
+						<input class="buttons__item" required type="checkbox" name="check-2" id="check-2">
+						<label class="buttons__label" for="check-2">That`s custom button</label>
+					</buttons>
+					<buttons class="buttons__box">
+						<input class="buttons__item" required type="checkbox" name="check-3" id="check-3">
+						<label class="buttons__label" for="check-3">That`s custom button</label>
+					</buttons>
+					<buttons class="buttons__box">
+						<input class="buttons__item" required type="checkbox" name="check-4" id="check-4">
+						<label class="buttons__label" for="check-4">That`s custom button</label>
+					</buttons>
+				</div>
+
+			</div>
+		</section>
+
+		<footer></footer>
+	</div>
+</body>
+
+</html>
